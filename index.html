@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic XKCD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+        #comic-container {
+            text-align: center;
+            size: 40px 40px ;
+        }
+        #comic-container img { 
+            width: 200px; 
+            height: auto; 
+        }
+        #transcript {
+            white-space: pre-wrap;  
+        }
+    </style>
+</head>
+<body>
+    <div id="comic-container"></div>
+    <script src="dist/bundle.js"></script>
+</body>
+</html>
